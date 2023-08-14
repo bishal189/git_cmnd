@@ -1,0 +1,41 @@
+
+
+
+#configuring the git at the begining
+ git config --global user.name =>to show the name of the user
+ git config --global user.email =>to show the name of the email
+
+
+ first setup
+ git config --global user.name 'bishal189<yourname>' =>to configure username(author user name)
+ git config --global user.email 'bishal189<yourname>'=> to configure useremail(author email)
+
+
+
+simple commands to add into git
+
+
+git init
+git add <file name> <file name> specific file
+git add . =>adding all files
+git commit =>commiting here
+git commit -m 'adding inline text'
+
+
+git log ==>dipslay the commiting information
+
+
+
+
+
+adding a paragraph while commiting
+
+first configure with code editor
+git config --global core.editor 'code --wait'
+meaning code means name of the editor --wait will wait util commit is typing
+if error code is not found than:
+ie ctrl + shift + p
+if not working install (code command  path)from editor 
+
+
+try it above adding paragraph while commiting
