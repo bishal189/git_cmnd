@@ -66,3 +66,9 @@ the --amend option
 
 
 git commit -- amend
+
+
+
+
+
+working with branches
