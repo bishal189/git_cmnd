@@ -72,3 +72,27 @@ git commit -- amend
 
 
 working with branches
+
+git branch =>to show list of  branch or it shows in which branch we are working include
+
+creating a branch
+
+git branch <name of branch>
+
+
+swithing to another branch because it is now pointing towards to the master by default
+git switch <branch name>
+
+
+
+if we want to delete than branch we must be in master branch
+
+if merged it will work first used this code.
+git branch -d <nameof branch>
+
+below code will automatically delete it
+git branch -D <branch name>
+
+
+for rename branch we must be in specific branch
+git branch -m <branch name>
